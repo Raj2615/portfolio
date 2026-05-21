@@ -180,6 +180,12 @@ section { padding: 100px 0; }
   border: 1px solid var(--border); color: var(--text-secondary); transition: all 0.3s; font-weight: 500; flex-shrink: 0;
 }
 .profile-link:hover { border-color: var(--accent); color: var(--accent); }
+.profile-mini-stats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.mini-stat {
+  padding: 4px 12px; border-radius: 50px; font-size: 0.8rem;
+  background: var(--bg-glass); border: 1px solid var(--border); color: var(--text-secondary);
+}
+.mini-stat strong { color: var(--accent); font-family: var(--mono); font-weight: 700; }
 
 /* ===== PROJECTS ===== */
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
